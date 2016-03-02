@@ -32,6 +32,7 @@
     "@cycle/dom": "^9.1.0",
     "@cycle/http": "^8.2.0",
     "cycle-restart": "0.0.12",
+    "normalize.css": "^3.0.3",
     "rx": "^4.0.8"
   },
   "devDependencies": {
