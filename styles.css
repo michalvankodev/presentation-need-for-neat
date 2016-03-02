@@ -1,21 +1,21 @@
-html, body, #app {
+html, body {
   height: 100%;
   padding: 0;
   margin: 0;
-  border-spacing: border-box;
 }
 
 #app {
+  height: 100%;
   background: #00BCD4;
   color: #EDEDED;
   font-size: 16px;
-  padding: 2em;
   font-family: 'Open Sans', sans-serif;
+  border-sizing: border-box;
 }
 
 h1 {
   font-size: 4em;
-  text-shadow: 2px 2px 4px #5A5A5A;
+  text-shadow: 2px 2px 1px #5A5A5A;
 }
 
 .functional {
@@ -29,4 +29,9 @@ h1 {
 
 .intro h3 {
   text-align: right;
+  text-shadow: 1px 1px 1px #5A5A5A;
+}
+
+.slide {
+  padding: 2em;
 }
