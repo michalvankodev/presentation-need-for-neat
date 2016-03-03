@@ -5,7 +5,7 @@ import {div, h1, h3, span, section} from '@cycle/dom'
 export default function introPage() {
   const color$ = Observable.interval(500).map(i => getRandomColor())
   const vtree$ = color$.map(color =>
-    section('.intro.slide', [
+    section('.intro', [
       h1([
         span('The need for '),
         span('.reactive', { style: {'color': color} }, 'reactive'),
